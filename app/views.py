@@ -13,7 +13,6 @@ from rest_framework.status import (
 
 from .models import User, Vehicle, Ads, Address
 from .serializers import (
-    RegisterSerializer,
     UserSerializer,
     VehicleSerializer,
     AdsSerializer,
